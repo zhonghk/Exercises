@@ -122,15 +122,12 @@
 			});	
 		</script>
 		<script>
-			$(".swiper-container").swiper({
+			var mySwiper = new Swiper('.swiper-container', {
 				speed:300,
-				effect:'coverflow'
+				effect:fade
 			});
-			//var mySwiper = new Swiper('.swiper-container', {
-				//speed:300
-			//});
 			//var mySwiper = document.querySelector('.swiper-container').swiper
-			//mySwiper.slideNext();
+			mySwiper.slideNext();
 		</script>
 	  
 	</body>
